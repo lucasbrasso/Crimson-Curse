@@ -1,2 +1,2 @@
-# TechForge
- Repositorio Techforge para o primeiro periodo de TADS
+# TechAcademy
+ Repositorio TechAcademy para o primeiro periodo de TADS
