@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #c5c5c5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #dc143c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8f0e28;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-inline: 13px;
+    z-index: 1;
+    background-color: #FF0000;
+}
+
+ul {
+    padding: 8px;
+}
+
+header a {
+    font-size: 26px;
+    padding: 24px;
+    padding-block: 12px;
+    border-radius: 22px;
+    color: white;
+}
+
+header a:hover {
+    transition: 200ms;
+    background-color: #950101;
+}
+
+header a:active {
+    color: #dbdbdb;
+}
+
+header ul {
+    margin: auto;
+    display: flex;
+    padding-top: 2.2%;
+    gap: 32px;
+    list-style: none;
+}
+
+nav {
+    height: 80px;
+    margin-inline: auto;
+    list-style: none;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+
+.crimsoncursetext {
+    width: 1000px;
+    margin: auto;
+    padding-top: 85px;
+}
+
+#crimsoncurselogo {
+    box-sizing: border-box;
+    background-color: #e8e5e5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#elmwood {
+    box-sizing: border-box;
+    background-color: #0c0a0a;
+    color: white;
+}
+
+#elmwood h2 {
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 28px;
+    font-size: 30px;
+}
+
+.column1 {
+    float: left;
+    padding: 10px;
+    width: 50%;
+    padding-left: 17%;
+    text-align: center;
+    color: white;
+    background-color: #0c0a0a;
+}
+
+.column1 img {
+    border-radius: 6px;
+    scale: 80%;
+    box-shadow: #000000 0 0 12px;
+}
+
+.column1 h2 {
+    padding-top: 130px;
+    padding-bottom: 15px
+}
+
+.column1 p {
+    padding-bottom: 160px;
+}
+
+.column2 {
+    float: right;
+    padding: 10px;
+    width: 50%;
+    padding-right: 17%;
+    text-align: center;
+    color: white;
+    background-color: #0c0a0a;
+}
+
+.column2 img {
+    border-radius: 6px;
+    scale: 80%;
+    box-shadow: #000000 0 0 12px;
+}
+
+.column2 h2 {
+    padding-top: 130px;
+    padding-bottom: 15px
+}
+
+.column2 p {
+    padding-bottom: 160px;
+}
+
+#personagem {
+    box-sizing: border-box;
+    background-color: #950101;
+    color: white;
+}
+
+#personagem h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#personagem h3 {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 28px;
+}
