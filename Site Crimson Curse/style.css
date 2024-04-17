@@ -188,6 +188,51 @@
     padding-right: 25%;
     background-color: #1d1b1b;
   }
+  #jogo a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 24px;
+    letter-spacing: 1px;
+    border-radius: 24px;
+    color: white;
+    box-shadow: #dc143c 0 0 12px;
+    background-color: #dc143c;
+    transition: 300ms;
+  }
+  
+  #jogo a:hover {
+    padding: 30px;
+    letter-spacing: 3px;
+    border-radius: 24px;
+    transition: 300ms;
+    box-shadow: #dc143c 0 0 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #jogo a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 24px;
+    letter-spacing: 1px;
+    border-radius: 24px;
+    color: white;
+    box-shadow: #dc143c 0 0 12px;
+    background-color: #dc143c;
+    transition: 300ms;
+  }
+  
+  #jogo a:hover {
+    padding: 30px;
+    letter-spacing: 3px;
+    border-radius: 24px;
+    transition: 300ms;
+    box-shadow: #dc143c 0 0 22px;
+  }
 }
 
 a {
@@ -431,6 +476,13 @@ nav {
 #personagem p {
   padding: 8px;
   font-size: 18px;
+}
+
+#jogo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #c5c5c5;
 }
 
 #sobre {
