@@ -3,9 +3,8 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![Construct3](https://img.shields.io/badge/Construct_3-00FFDA?style=for-the-badge&logo=construct3&logoColor=black)](https://www.construct.net)
-[![MIT License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge)](LICENSE)
 
-🔗 **[Clique aqui para ir a pagina](https://seu-usuario.github.io/seu-repositorio/)**
+🔗 **[Clique aqui para ir a pagina](https://lucasbrasso.github.io/Crimson-Curse/Site%20Crimson%20Curse/)**
 
 Projeto desenvolvido como parte do primeiro módulo da graduação em **Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)**. Ele é composto por:
 
