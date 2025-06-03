@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+html {
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 ::-webkit-scrollbar {
@@ -16,568 +8,53 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #c5c5c5;
+  background: oklch(20.5% 0 0);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #dc143c;
+  background: oklch(58.6% 0.253 17.585);
+  border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8f0e28;
+  background: oklch(64.5% 0.246 16.439);
 }
 
-@media (max-width: 430px) {
-  header {
-    display: none;
-  }
-
-  nav {
-    display: none;
-  }
-
-  body {
-    text-align: center;
-  }
-
-  #crimsoncurselogo {
-    padding-top: 9%;
-    padding-bottom: 40px;
-  }
-
-  #crimsoncurselogo img {
-    padding-top: 66px;
-    padding-bottom: 66px;
-    scale: 160%;
-  }
-
-  #elmwood h2 {
-    font-size: 10px;
-  }
-
-  .column1 {
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: smaller;
-  }
-
-  .column1 img {
-    border-radius: 0px;
-    scale: 240%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .column2 {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .column2 img {
-    border-radius: 0px;
-    scale: 240%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .esfera {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #1d1b1b;
-  }
-
-  .aurora {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #1d1b1b;
-  }
-
-  #personagem img[alt="Esfera"] {
-    scale: 320%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  #personagem img[alt="Aurora"] {
-    scale: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  #construct3 {
-    scale: 100%;
-  }
-
-  #construct3:hover {
-    scale: 100%;
-  }
-
-  #piskel {
-    scale: 100%;
-  }
-
-  #piskel:hover {
-    scale: 100%;
-  }
-
-  #freesound {
-    scale: 100%;
-  }
-
-  #freesound:hover {
-    scale: 100%;
-  }
+.header-link {
+  position: relative;
 }
 
-/*importante*/
-@media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
-  .column1 {
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: smaller;
-  }
-
-  .column1 img {
-    border-radius: 0px;
-    scale: 240%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  .column2 {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .column2 img {
-    border-radius: 0px;
-    scale: 240%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  .esfera {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #1d1b1b;
-  }
-  #personagem img[alt="Hoenn"]{
-    scale: 140%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-  #personagem img[alt="Esfera"] {
-    scale: 140%;
-    
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  #personagem img[alt="Aurora"] {
-    scale: 140%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  .aurora {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #1d1b1b;
-  }
-  #jogo a {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 900;
-    padding: 24px;
-    letter-spacing: 1px;
-    border-radius: 24px;
-    color: white;
-    box-shadow: #dc143c 0 0 12px;
-    background-color: #dc143c;
-    transition: 300ms;
-  }
-  
-  #jogo a:hover {
-    padding: 30px;
-    letter-spacing: 3px;
-    border-radius: 24px;
-    transition: 300ms;
-    box-shadow: #dc143c 0 0 22px;
-  }
+.header-link::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  bottom: -7px;
+  left: 50%;
+  background: oklch(57.7% 0.245 27.325);
+  border-radius: 999px;
+  transition: all 200ms ease;
 }
 
-@media (min-width: 1024px) {
-  #jogo a {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 900;
-    padding: 24px;
-    letter-spacing: 1px;
-    border-radius: 24px;
-    color: white;
-    box-shadow: #dc143c 0 0 12px;
-    background-color: #dc143c;
-    transition: 300ms;
-  }
-  
-  #jogo a:hover {
-    padding: 30px;
-    letter-spacing: 3px;
-    border-radius: 24px;
-    transition: 300ms;
-    box-shadow: #dc143c 0 0 22px;
-  }
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  padding: 8px;
-}
-
-header {
-  display: flex;
-  position: fixed;
-  top: 0;
+.header-link:hover::after {
   width: 100%;
-  padding-inline: 13px;
-  z-index: 1;
-  background-color: #ff0000;
+  left: 0;
 }
 
-header a {
-  font-weight: 900;
-  font-size: 28px;
-  padding: 24px;
-  padding-block: 12px;
-  border-radius: 22px;
-  letter-spacing: 1px;
-  color: white;
-}
-
-header a:hover {
-  transition: 200ms;
-  background-color: #950101;
-}
-
-header a:active {
-  color: #dbdbdb;
-}
-
-header ul {
-  display: flex;
-  padding-top: 2.1%;
-  gap: 32px;
-  list-style: none;
-}
-
-nav {
-  height: 80px;
-  margin-inline: auto;
-  list-style: none;
-}
-
-#crimsoncurselogo {
-  padding-top: 6%;
-  padding-bottom: 3%;
-  text-align: center;
-  background-color: #303030;
-}
-
-#crimsoncurselogo img {
-  height: 60%;
-  width: 60%;
-}
-
-#elmwood {
-  text-align: center;
-  padding-bottom: 25%;
-  background-color: #0d0b0b;
-  color: white;
-}
-
-#elmwood h2 {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  font-size: 30px;
-}
-
-.column1 {
-  float: left;
-  max-width: 100%;
-  width: 50%;
-  padding-bottom: 20px;
-  text-align: center;
-  color: white;
-  background-color: #0d0b0b;
-}
-
-.column2 {
-  float: right;
-  max-width: 100%;
-  width: 50%;
-  padding-bottom: 20px;
-  text-align: center;
-  color: white;
-  background-color: #0d0b0b;
-}
-
-.column1 img {
-  height: 50%;
-  width: 50%;
-  border-radius: 3%;
-  transition: 200ms;
-}
-
-.column2 img {
-  height: 50%;
-  width: 50%;
-  border-radius: 3%;
-  transition: 200ms;
-}
-
-.column1 img:hover {
-  box-shadow: #dc143c 0 0 22px;
-  transition: 200ms;
-}
-
-.column2 img:hover {
-  box-shadow: #dc143c 0 0 22px;
-  transition: 200ms;
-}
-
-.column1 h2 {
-  padding-top: 6%;
-}
-
-.column1 p {
-  margin-right: 12%;
-  margin-left: 12%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.column2 h2 {
-  padding-top: 6%;
-}
-
-.column2 p {
-  margin-right: 12%;
-  margin-left: 12%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-#personagem {
-  text-align: center;
-  padding-bottom: 50%;
-  background-color: #171717;
-  color: white;
-}
-
-#personagem h2 {
-  padding-top: 40px;
-  font-size: 30px;
-}
-
-#personagem img {
-  scale: 80%;
-  border-radius: 12px;
-  box-shadow: #e5e6e8 0 0 20px;
-  background-color: white;
-}
-
-#personagem img[alt="Hoenn"]{
-  height: 20%;
-  width: 20%;
-}
-
-#personagem h3 {
-  text-align: center;
-  font-size: 26px;
-  padding-top: 34px;
-  padding-bottom: 20px;
-}
-
-.esfera {
-  float: left;
-  width: 50%;
-  padding-bottom: 3%;
-  text-align: center;
-  background-color: #171717;
-}
-
-.esfera img {
-  height: 50%;
-  width: 50%;
-}
-
-.aurora {
-  float: right;
-  width: 50%;
-  padding-bottom: 3%;
-  text-align: center;
-  background-color: #171717;
-}
-
-.aurora p {
-  margin: 5%;
-}
-
-.aurora img {
-  height: 50%;
-  width: 50%;
-}
-
-#personagem h4 {
-  font-size: 20px;
-  padding: 15px;
-  animation: color-change 2s infinite linear;
-}
-
-#personagem img[alt="Esfera"] {
-  box-shadow: #3fc1c9 0 0 30px;
-}
-
-#personagem img[alt="Aurora"] {
-  box-shadow: #3fc1c9 0 0 30px;
-}
-
-@keyframes color-change {
+@keyframes colorCycle {
   0% {
-    color: #364f6b;
-  }
-
-  25% {
-    color: #3fc1c9;
+    color: #00ca1b;
   }
 
   50% {
-    color: #c9b6e4;
-  }
-
-  75% {
-    color: #ca9ce5;
+    color: #0b79a5;
   }
 
   100% {
-    color: #0d7377;
+    color: #29b6b6;
   }
 }
 
-#personagem p {
-  padding: 8px;
-  font-size: 18px;
-}
-
-#jogo {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-  background-color: #c5c5c5;
-}
-
-#sobre {
-  text-align: center;
-  color: #dbe8f6;
-  background-color: #0d0b0b;
-}
-
-#sobre h2 {
-  font-size: 45px;
-  padding-top: 58px;
-  padding-bottom: 68px;
-}
-
-#sobre h3 {
-  font-size: 38px;
-}
-
-#sobre img {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-#construct3 {
-  height: 25%;
-  width: 25%;
-  transition: 200ms;
-}
-
-#construct3:hover {
-  scale: 103%;
-  transition: 200ms;
-}
-
-#piskel {
-  height: 20%;
-  width: 20%;
-  transition: 200ms;
-}
-
-#piskel:hover {
-  scale: 103%;
-  transition: 200ms;
-}
-
-#quemsomos {
-  padding-bottom: 30px;
-  text-align: center;
-  color: black;
-  background-color: #e8e5e5;
-}
-
-#quemsomos img {
-  height: 20%;
-  width: 20%;
-  border-radius: 20px;
-}
-
-#quemsomos h2 {
-  padding-top: 58px;
-  padding-bottom: 30px;
-  font-weight: 900;
-  font-size: 40px;
-}
-
-#quemsomos h3 {
-  font-size: 30px;
-  padding-top: 8px;
-  padding-bottom: 12px;
-}
-
-#quemsomos p {
-  font-size: 22px;
-}
-
-footer {
-  margin: auto;
-  text-align: center;
-  padding-top: 30px;
-  background-color: #ff0000;
-  color: white;
-}
-
-footer h3 {
-  padding: 5px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-footer p {
-  font-weight: 500;
-  font-size: 12px;
-}
-
-#contato img {
-  scale: 40%;
+.animate-colorCycle {
+  animation: colorCycle 2s ease infinite;
 }

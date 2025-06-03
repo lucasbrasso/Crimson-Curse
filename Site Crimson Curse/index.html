@@ -2,116 +2,186 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crimson Curse</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/icon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crimson Curse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/icon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body id="inicio">
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="#inicio">Início</a> </li>
-                <li> <a href="#personagem">Personagem e Habilidades</a> </li>
-                <li> <a href="#sobre">Sobre</a> </li>
-                <li> <a href="#quemsomos">Quem Somos</a> </li>
-                <li> <a href="#contato">Contato</a> </li>
-            </ul>
-        </nav>
-    </header>
-    <section id="crimsoncurselogo">
-
-            <img src="img/crimsoncursetext.png" alt="CrimsonCurse" title="Crimson Curse">
-    </section>
-
-    <section id="elmwood">
-        <h2>Se aventure na masmorra de Elmwood
-        </h2>
-        <div class="column1">
-            <img src="img/contratado.gif" alt="contratado">
-            <h2>O monstro carmesim</h2>
-            <p>Um mago muito poderoso amaldiçoou o povo de Elmwood a 214 anos anos atras, desde então a besta aterroriza
-                todos os habitantes desse antigo
-                vilarejo.
-            </p>
-        </div>
-        <div class="column2">
-            <h2>Você foi convocado</h2>
-            <p>A anciã da cidade de Elmwood te contratou para derrotar o mal que cerca a cidade a séculos.</p>
-            <img src="img/boss.gif" alt="boss">
-        </div>
-    </div>
-</section>
-    <section id="personagem">
-        <h2>Personagem e Habilidades
-        </h2>
-        <h3>Hoenn, o Feiticeiro da Luz
-        </h3>
-        <img src="img/hoenn.gif" alt="Hoenn" title="Hoenn">
-        <p>Você assumirá o papel de Hoenn, um poderoso e experiente mago que domina o controle
-            da luz. Vestido com uma capa vermelha, ele exala uma aura de mistério e poder enquanto manipula os mais
-            brilhantes feixes de luz para moldar o mundo ao seu redor. Com olhos azuis que brilham com a intensidade das
-            estrelas, Hoenn é um mestre em utilizar sua magia luminosa tanto para iluminar o caminho quanto para
-            deslumbrar
-            e desorientar seus oponentes.
-        </p>
-        <h3>Conjunto de habilidades
-        </h3>
-        <div class="esfera">
-        <h4>Esfera Estelar</h4>
-        <img src="img/esfera.png" alt="Esfera">
-        <p>Hoenn conjura uma Esfera Estelar, uma pequena e radiante esfera de luz azulada que emana do seu poderoso
-            cajado, deslizando suavemente pelo ar antes de ser lançada em direção ao alvo. Sua luz cintilante carrega
-            consigo uma energia mágica capaz de iluminar a escuridão e dissipar as sombras que ousam desafiar seu
-            caminho.</p>
-        </div>
-        <div class="aurora">
-        <h4>O Fulgor da Aurora</h4>
-        <img src="img/aurora.png" alt="Aurora">
-        <p>Hoenn ao absorver uma quantidade alta de energia<br> desencadeia o Fulgor da Aurora, um feixe de luz tão<br> poderoso
-            que pode partir montanhas e abrir
-            caminho até<br> os confins do horizonte. No entanto, essa habilidade<br> demanda uma imensa quantidade de energia do
-            protagonista,<br> deixando-o exausto após o seu uso. A luz intensa desse<br> feixe é capaz de banir a escuridão e
-            inspirar esperança<br> naqueles que testemunham sua magnificência,<br> mas sua utilização frequente é limitada
-            devido ao seu<br> custo elevado de energia e desgaste do usuario.</p>
-            </div>
-    </section>
-        <section id="jogo">
-            <a href="Jogo/index.html" target="_blank">
-                JOGUE AGORA
-            </a>
-        </section>
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <h3>Feito com</h3>
-        <a href="https://www.construct.net/en" target="_blank">
-            <img id="construct3" src="img/construct3.png" alt="Construct 3" title="Construct 3">
+  <header class="bg-black fixed top-0 w-full h-20 opacity-[95%]">
+    <ul class="flex h-full justify-center items-center list-none text-white ">
+      <li class="mx-2.5">
+        <a href="#inicio" class="header-link hover:text-red-500 duration-300">Início</a>
+      </li>
+      <li class="mx-2.5">
+        <a href="#jogo" class="header-link hover:text-red-500 duration-300">Jogo</a>
+      </li>
+      <li class="mx-2.5">
+        <a href="#sobre" class="header-link hover:text-red-500 duration-300">Sobre</a>
+      </li>
+      <li class="mx-2.5">
+        <a href="Jogo/index.html"
+          class="font-bold bg-rose-600 text-white rounded-full shadow-[0_0_8px_#f43f5e] px-6 py-2 transition-all hover:shadow-[0_0_14px_#f43f5e] duration-300"
+          target="_blank">
+          Jogar
         </a>
-        <a href="https://www.piskelapp.com/" target="_blank">
-            <img id="piskel" src="img/piskel.png" alt="Piskel" title="Piskel">
-        </a>
-    </section>
-    <section id="quemsomos">
-        <h2>Quem Somos</h2>
-        <img src="img/lucas.png" alt="">
-        <h3>Lucas Brasso</h3>
-        <p>O unico desenvolvedor por trás do site e do <br>
-             jogo, é fisiculturista nas horas vagas. Seu<br> pokemon
-            favorito é o Swampert, ele<br> também curte suco de uva integral</p>
-    </section>
-</body>
-<footer id="contato">
-    <h3>Projeto do primeiro período de TADS - Desenvolvido por Lucas Brasso</h3>
-    <h3>Contato</h3>
-    <ul>
-        <li><img src="img/email.png" alt="Email"> lucasbrassodemorais@gmail.com
-        </li>
-        <li><img src="img/instagram.png" alt="instagram"> @lucas.brasso
-        </li>
+      </li>
     </ul>
-</footer>
+  </header>
+
+
+  <div class="py-28 text-center bg-neutral-900">
+    <img src="img/crimsoncursetext.png" alt="CrimsonCurse" title="Crimson Curse" class="max-w-sm md:max-w-lg w-full mx-auto" />
+  </div>
+
+
+  <div id="jogo" class="bg-black py-12 scroll-mt-20">
+    <div class="text-white max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+      <img src="img/cc-1.jpg" alt="Crimson Curse Gameplay Image 1"
+        class="md:pr-5 rounded-sm w-full h-auto object-cover order-2 md:order-none" />
+      <div class="flex flex-col justify-center px-5 text-center md:text-left order-3 md:order-none">
+        <h2 class="text-xl font-semibold mb-2">O monstro carmesim</h2>
+        <p>
+          Um mago muito poderoso amaldiçoou o povo de Elmwood a anos atras,
+          desde então a besta aterroriza todos os habitantes desse antigo
+          vilarejo.
+        </p>
+      </div>
+
+      <div class="flex flex-col justify-center px-5 text-center md:text-right order-1 md:order-none">
+        <h2 class="text-xl font-semibold mb-2">Você foi convocado</h2>
+        <p>
+          A anciã da cidade de Elmwood te contratou para derrotar o mal que
+          cerca a cidade a séculos.
+        </p>
+      </div>
+      <img src="img/cc-3.jpg" alt="Crimson Curse Gameplay Image 2"
+        class="md:pl-5 rounded-sm w-full h-auto object-cover order-4 md:order-none" />
+    </div>
+  </div>
+  <div class="bg-black py-12 text-center text-white">
+    <div class="flex flex-col items-center mb-8 px-4">
+      <h2 class="text-2xl font-bold mb-5">Hoenn, o Feiticeiro da Luz</h2>
+      <img src="img/hoenn.gif" alt="Hoenn" class="max-w-[200px] my-5 sm:max-w-[150px]" />
+      <p class="max-w-3xl mx-auto px-2 sm:px-0">
+        Você será Hoenn, um mago poderoso e experiente no controle da luz.
+        Usando uma capa vermelha e com olhos azuis brilhantes, ele emana
+        mistério e poder, manipulando feixes luminosos para guiar, deslumbrar
+        e confundir seus inimigos.
+      </p>
+    </div>
+
+    <h2 class="text-2xl font-bold mb-8 text-white py-4 px-4 sm:px-0">
+      Conjunto de habilidades
+    </h2>
+
+    <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 text-white rounded p-5">
+      <div class="flex flex-col items-center px-4">
+        <img src="img/esfera.png" alt="Esfera" class="max-w-[300px] sm:max-w-[250px]" />
+        <h3 class="mt-4 mb-2 text-lg animate-colorCycle">Esfera Estelar</h3>
+        <p class="max-w-xl text-left mx-auto px-2 sm:px-0">
+          Invoca uma Esfera Estelar, uma esfera de luz azul mágica que
+          desliza pelo ar e ilumina a escuridão, dissipando as sombras ao ser
+          lançada contra o alvo.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center px-4">
+        <img src="img/aurora.png" alt="Aurora" class="max-w-[300px] sm:max-w-[250px]" />
+        <h3 class="mt-4 mb-2 text-lg animate-colorCycle">O Fulgor da Aurora</h3>
+        <p class="max-w-xl text-left mx-auto px-2 sm:px-0">
+          Ao absorver uma grande quantidade energia, Hoenn libera o Fulgor da
+          Aurora, um feixe de luz extremamente poderoso que pode partir
+          montanhas e banir a escuridão.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center bg-neutral-900 min-h-[30vh] w-full">
+    <a href="Jogo/index.html" target="_blank"
+      class="inline-flex items-center justify-center gap-3 font-bold bg-rose-600 text-white rounded-full text-4xl py-8 px-12 shadow-[0_0_8px_#f43f5e] transition-all duration-300 hover:shadow-[0_0_8px_#f43f5e]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 384 512" fill="currentColor" class="text-white">
+        <path
+          d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+      </svg>
+      <span>Jogue Agora!</span>
+    </a>
+  </div>
+
+  <div id="sobre" class="px-0 py-12 text-center bg-black text-white">
+    <h2 class="main-text text-2xl font-bold py-8">Sobre</h2>
+    <p class="mb-8 max-w-sm md:max-w-3xl mx-auto">
+      Este projeto, composto por um jogo e um website, foi desenvolvido como parte do primeiro módulo da graduação em Tecnologia em Análise e Desenvolvimento de Sistemas (TADS). O website foi construído utilizando HTML e CSS, enquanto o jogo foi um desafio especial, arriscando um desenvolvimento 3D com a plataforma Construct 3 que, embora poderosa, apresenta limitações para 3D.
+    <a href="/old.html" target="_blank" class=" py-3 px-4 bg-white text-black rounded-full">Link para Pagina Antiga</a>
+    <h3 class="text-xl my-8">Feito com</h3>
+    <a href="https://www.construct.net/en" target="_blank" class="inline-block mx-4">
+      <img id="construct3" src="img/construct3.webp" alt="Construct 3" title="Construct 3" />
+    </a>
+    <a href="https://www.piskelapp.com/" target="_blank" class="inline-block mx-4">
+      <img id="piskel" src="img/piskel.webp" alt="Piskel" title="Piskel" />
+    </a>
+  </div>
+
+  <div class="flex flex-col items-center text-center py-12">
+    <h2 class="main-text text-2xl font-bold mb-8">Quem Somos</h2>
+    <img src="img/lucas.webp" alt="Foto do Desenvolvedor" class="rounded-full mb-6 max-w-[300px]" />
+    <h3 class="text-xl font-semibold mb-4">Lucas Brasso</h3>
+    <p class="max-w-sm md:max-w-3xl text-center">
+      O unico desenvolvedor por trás do site e do jogo, é fisiculturista nas
+      horas vagas. Seu pokemon favorito é o Swampert, ele também curte suco de
+      uva integral
+    </p>
+  </div>
+
+  <footer class="w-full bg-[#1c1c1c] py-10">
+    <div class="flex flex-col items-center gap-4 px-4 max-w-full">
+      <div class="flex items-center gap-6">
+        <a href="mailto:lucasb.morais28@gmail.com" class="text-[#dddddd] hover:text-[#8c8c8c] transition-colors"
+          aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="block">
+            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+          </svg>
+        </a>
+        <a href="https://github.com/lucasbrasso" target="_blank" rel="noopener noreferrer"
+          class="text-[#dddddd] hover:text-[#8c8c8c] transition-colors" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="block">
+            <path
+              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+            </path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/lucasbrassodemorais" target="_blank" rel="noopener noreferrer"
+          class="text-[#dddddd] hover:text-[#8c8c8c] transition-colors" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="block">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </div>
+      <div class="text-sm text-[#dddddd]">
+        © <span id="year"></span> Lucas Brasso. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
 
 </html>
