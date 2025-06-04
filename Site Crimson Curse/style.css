@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -57,4 +57,17 @@ html {
 
 .animate-colorCycle {
   animation: colorCycle 2s ease infinite;
+}
+
+@keyframes pulse-shadow {
+  0%,
+  100% {
+    box-shadow: 0 0 8px #f43f5e;
+  }
+  50% {
+    box-shadow: 0 0 20px #f43f5e;
+  }
+}
+.animate-pulse-shadow {
+  animation: pulse-shadow 3s ease-in-out infinite;
 }
